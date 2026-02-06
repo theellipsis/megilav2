@@ -1,0 +1,36 @@
+.paragraph {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--space-paragraph-gap);
+  padding: 0 0 var(--space-paragraph-pad-bottom);
+}
+
+.quote {
+  display: flex;
+  padding-right: var(--dimensions-d-1-5, 6px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.quoteLead {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteBody {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: var(--dimensions-d-1-5, 6px);
+  border-right: 1px solid var(--color-accent);
+  transition: border-color 0.3s ease;
+}
+

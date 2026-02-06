@@ -1,0 +1,31 @@
+.root {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-numbers-gap);
+  padding: var(--space-numbers-pad);
+  width: var(--size-numbers-w);
+  height: var(--size-numbers-h);
+  flex: 0 0 auto;
+}
+
+.pasukWrap {
+  width: 4px;
+  height: 8px;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: start;
+}
+
+.perekWrap {
+  width: 8px;
+  height: 20px;
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.perekWrap :global(h2) {
+  height: var(--size-h2-h);
+}
+

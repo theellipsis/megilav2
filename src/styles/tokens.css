@@ -1,0 +1,59 @@
+:root {
+  /* Light mode colors (default) */
+  --color-bg: #ffffff;
+  --color-text: #111827;
+  --color-accent: #c9b693;
+  --color-black: #000000;
+
+  --font-sans-he: "Noto Sans Hebrew", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --font-serif-he: "Noto Serif Hebrew", ui-serif, Georgia, "Times New Roman", serif;
+
+  /* Base font sizes (unitless for calculation) */
+  --fs-h1-base: 24;
+  --fs-h2-base: 16;
+  --fs-h3-base: 12;
+  --fs-text-base: 16;
+  --fs-pasuk-base: 6;
+
+  /* Base line heights in pixels */
+  --lh-h1-base: 28;
+  --lh-h2-base: 20;
+  --lh-h3-base: 16;
+  --lh-text-base: 24;
+  --lh-pasuk-base: 8;
+
+  /* Font scale multiplier (default, can be overridden) */
+  --font-scale: 1;
+
+  --space-screen-pad-top: 64px;
+  --space-screen-pad-inline: 32px;
+  --space-topbar-gap: 24px;
+  --space-paragraph-gap: 2px;
+  --space-paragraph-pad-bottom: 10px;
+  --space-numbers-gap: 2px;
+  --space-numbers-pad: 2px;
+  --space-quote-gap: 10px;
+  --space-quote-pad-right: 6px;
+  
+  /* Dimensions */
+  --dimensions-d-1-5: 6px;
+
+  --size-screen-w: 320px;
+  --size-screen-h: 1295px;
+  --size-mode-toggle-w: 46.5px;
+  --size-mode-toggle-h: 31px;
+  --size-font-icon: 24px;
+  --size-numbers-w: 30px;
+  --size-numbers-h: 13px;
+  --size-h2-w: 255px;
+  --size-h2-h: 20px;
+}
+
+/* Dark mode colors */
+[data-theme="dark"] {
+  --color-bg: #111827;
+  --color-text: #f9fafb;
+  --color-accent: #c9b693;
+  --color-black: #ffffff;
+}
+

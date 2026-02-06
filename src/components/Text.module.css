@@ -1,0 +1,62 @@
+.h1 {
+  margin: 0;
+  font-family: var(--font-sans-he);
+  font-weight: 400;
+  font-size: calc(var(--fs-h1-base) * var(--font-scale) * 1px);
+  line-height: calc(var(--lh-h1-base) * var(--font-scale) * 1px);
+  text-align: start;
+  color: var(--color-accent);
+  transition: color 0.3s ease, font-size 0.2s ease, line-height 0.2s ease;
+}
+
+.h2 {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans-he);
+  font-weight: 400;
+  font-style: normal;
+  font-size: calc(var(--fs-h2-base) * var(--font-scale) * 1px);
+  line-height: calc(var(--lh-h2-base) * var(--font-scale) * 1px);
+  text-align: start;
+  vertical-align: top;
+  color: var(--color-accent);
+  letter-spacing: normal;
+  transition: color 0.3s ease, font-size 0.2s ease, line-height 0.2s ease;
+}
+
+.h3 {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans-he);
+  font-weight: 400;
+  font-style: normal;
+  font-size: calc(var(--fs-h3-base) * var(--font-scale) * 1px);
+  line-height: calc(var(--lh-h3-base) * var(--font-scale) * 1px);
+  text-align: start;
+  vertical-align: top;
+  color: var(--color-accent);
+  letter-spacing: normal;
+  transition: color 0.3s ease, font-size 0.2s ease, line-height 0.2s ease;
+}
+
+.text {
+  margin: 0;
+  font-family: var(--font-serif-he);
+  font-weight: 400;
+  font-size: calc(var(--fs-text-base) * var(--font-scale) * 1px);
+  line-height: calc(var(--lh-text-base) * var(--font-scale) * 1px);
+  text-align: start;
+  color: var(--color-text);
+  white-space: pre-wrap;
+  transition: color 0.3s ease, font-size 0.2s ease, line-height 0.2s ease;
+}
+
+.pasuk {
+  font-family: var(--font-sans-he);
+  font-weight: 400;
+  font-size: calc(var(--fs-pasuk-base) * var(--font-scale) * 1px);
+  line-height: calc(var(--lh-pasuk-base) * var(--font-scale) * 1px);
+  color: var(--color-accent);
+  transition: color 0.3s ease, font-size 0.2s ease, line-height 0.2s ease;
+}
+
