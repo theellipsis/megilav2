@@ -38,11 +38,11 @@ export function Home() {
 
           <div className={styles.content}>
    
-        <H1>המלך‭ ‬אחשורוש</H1>
+        <H1>המלך אחשורוש</H1>
       </div>
 
           <div className={styles.section}>
-        <H2>מלכות‭ ‬אחשורוש</H2>
+        <H2>מלכות אחשורוש</H2>
       </div>
 
       <Paragraph
@@ -55,7 +55,7 @@ export function Home() {
       />
 
       <div className={styles.section}>
-        <H2>משתה‭ ‬אחשורוש‭ ‬לשרים</H2>
+        <H3>משתה אחשורוש לשרים</H3>
       </div>
 
       <Paragraph
@@ -85,7 +85,7 @@ export function Home() {
       />
 
       <div className={styles.section}>
-        <H2>משתה‭ ‬אחשורוש‭ ‬לכל‭ ‬העם</H2>
+        <H3>משתה אחשורוש לכל העם</H3>
       </div>
 
       <Paragraph
@@ -165,7 +165,7 @@ export function Home() {
       />
 
       <div className={styles.section}>
-        <H2>עצת החכמים</H2>
+        <H3>עצת החכמים</H3>
       </div>
 
       <Paragraph
@@ -255,7 +255,7 @@ export function Home() {
       />
 
       <div className={styles.section}>
-        <H2>שליחת הספרים</H2>
+        <H3>שליחת הספרים</H3>
       </div>
 
       <Paragraph
@@ -269,7 +269,7 @@ export function Home() {
       />
 
       <div className={styles.h1Wrap}>
-        <H1>מלכה תחת ושתי</H1>
+        <H2>מלכה תחת ושתי</H2>
       </div>
 
       <Paragraph
@@ -283,16 +283,16 @@ export function Home() {
       />
 
       <QuoteParagraph
-        pasuk="ב"
-        lead={`וַיֹּֽאמְר֥וּ נַעֲרֵֽי־הַמֶּ֖לֶךְ מְשָֽׁרְתָ֑יו`}
-        text={`יְבַקְשׁ֥וּ לַמֶּ֛לֶךְ 
+ pasuk="ב"
+ lead={`וַיֹּֽאמְר֥וּ נַעֲרֵֽי־הַמֶּ֖לֶךְ מְשָֽׁרְתָ֑יו`}
+ text={`יְבַקְשׁ֥וּ לַמֶּ֛לֶךְ 
 נְעָר֥וֹת בְּתוּל֖וֹת 
 טוֹב֥וֹת מַרְאֶֽה׃`}
-      />
+ />
 
-      <Paragraph
-        pasuk="ג"
-        text={`וְיַפְקֵ֨ד הַמֶּ֣לֶךְ פְּקִידִים֮ 
+<QuoteParagraph
+pasuk="ג"
+text={`וְיַפְקֵ֨ד הַמֶּ֣לֶךְ פְּקִידִים֮ 
 בְּכָל־מְדִינ֣וֹת מַלְכוּתוֹ֒ 
 וְיִקְבְּצ֣וּ אֶת־כָּל־נַעֲרָֽה־בְ֠תוּלָה 
 טוֹבַ֨ת מַרְאֶ֜ה 
@@ -302,17 +302,16 @@ export function Home() {
 שֹׁמֵ֣ר הַנָּשִׁ֑ים 
 וְנָת֖וֹן תַּמְרֻֽקֵיהֶֽן׃`}
       />
-
       <QuoteParagraph
-        pasuk="ד"
-        lead={`וְהַֽנַּעֲרָ֗ה אֲשֶׁ֤ר תִּיטַב֙ בְּעֵינֵ֣י הַמֶּ֔לֶךְ 
-תִּמְלֹ֖ךְ תַּ֣חַת וַשְׁתִּ֑`}
-        text={`וַיִּיטַ֧ב הַדָּבָ֛ר בְּעֵינֵ֥י הַמֶּ֖לֶךְ 
+ pasuk="ד"
+ text={`וְהַֽנַּעֲרָ֗ה אֲשֶׁ֤ר תִּיטַב֙ בְּעֵינֵ֣י הַמֶּ֔לֶךְ 
+תִּמְלֹ֖ךְ תַּ֣חַת וַשְׁתִּ֑י`}
+ lead={`וַיִּיטַ֧ב הַדָּבָ֛ר בְּעֵינֵ֥י הַמֶּ֖לֶךְ 
 וַיַּ֥עַשׂ כֵּֽן׃ ס`}
       />
 
       <div className={styles.section}>
-        <H2>מרדכי ואסתר</H2>
+        <H3>מרדכי ואסתר</H3>
       </div>
 
       <Paragraph
@@ -344,7 +343,7 @@ export function Home() {
       />
 
       <div className={styles.section}>
-        <H2>קיבוץ נערות בשושן</H2>
+        <H3>קיבוץ נערות בשושן</H3>
       </div>
 
       <Paragraph
@@ -389,7 +388,7 @@ export function Home() {
       />
 
       <div className={styles.section}>
-        <H2>תור נערה ונערה</H2>
+        <H3>תור נערה ונערה</H3>
       </div>
 
       <Paragraph
@@ -426,7 +425,7 @@ export function Home() {
       />
 
       <div className={styles.section}>
-        <H2>תור אסתר והמלכתה</H2>
+        <H3>תור אסתר והמלכתה</H3>
       </div>
 
       <Paragraph
@@ -477,7 +476,7 @@ export function Home() {
       />
 
       <div className={styles.section}>
-        <H2>קיבוץ נערות בשנית</H2>
+        <H3>קיבוץ נערות בשנית</H3>
       </div>
 
       <Paragraph
@@ -495,6 +494,11 @@ export function Home() {
 כַּֽאֲשֶׁ֛ר הָֽיְתָ֥ה בְאָמְנָ֖ה אִתּֽוֹ׃ ס`}
       />
 
+      
+
+      <div className={styles.h1Wrap}>
+        <H1>גדולת המן והפור</H1>
+      </div>
       <div className={styles.section}>
         <H2>בגתן ותרש</H2>
       </div>
@@ -526,10 +530,6 @@ export function Home() {
 וַיִּכָּתֵ֗ב בְּסֵ֛פֶר דִּבְרֵ֥י הַיָּמִ֖ים 
 לִפְנֵ֥י הַמֶּֽלֶךְ׃ ס`}
       />
-
-      <div className={styles.h1Wrap}>
-        <H1>גדולת המן והפור</H1>
-      </div>
 
       <div className={styles.section}>
         <H2>גדולת המן</H2>
@@ -577,7 +577,7 @@ export function Home() {
       />
 
       <div className={styles.section}>
-        <H2>חמת המן והפור</H2>
+        <H3>חמת המן והפור</H3>
       </div>
 
       <Paragraph
@@ -642,9 +642,8 @@ export function Home() {
 וַֽיִּתְּנָ֗הּ לְהָמָ֧ן בֶּֽן־הַמְּדָ֛תָא הָֽאֲגָגִ֖י 
 צֹרֵ֥ר הַיְּהוּדִֽים׃`}
       />
-
       <QuoteParagraph
-        pasuk="יא"
+ pasuk="יא"
         lead={`וַיֹּ֤אמֶר הַמֶּ֨לֶךְ֙ לְהָמָ֔ן`}
         text={`הַכֶּ֖סֶף נָת֣וּן לָ֑ךְ 
 וְהָעָ֕ם 
@@ -802,7 +801,7 @@ export function Home() {
 וַתְּצַוֵּ֖הוּ אֶֽל־מָרְדֳּכָֽי׃`}
       />
 
-      <Paragraph
+      <QuoteParagraph
         pasuk="יא"
         text={`כָּל־עַבְדֵ֣י הַמֶּ֡לֶךְ 
 וְעַם־מְדִינ֨וֹת הַמֶּ֜לֶךְ יֹֽדְעִ֗ים 
@@ -853,7 +852,7 @@ export function Home() {
 
       <QuoteParagraph
         pasuk="טז"
-        lead={`לֵךְ֩ 
+        text={`לֵךְ֩ 
 כְּנ֨וֹס אֶת־כָּל־הַיְּהוּדִ֜ים 
 הַֽנִּמְצְאִ֣ים בְּשׁוּשָׁ֗ן 
 וְצ֣וּמוּ עָ֠לַי 
@@ -958,7 +957,7 @@ export function Home() {
       />
 
       <div className={styles.section}>
-        <H2>המן והעץ</H2>
+        <H3>המן והעץ</H3>
       </div>
 
       <Paragraph
@@ -999,7 +998,7 @@ export function Home() {
 עִם־הַמֶּֽלֶךְ׃`}
       />
 
-      <Paragraph
+      <QuoteParagraph
         pasuk="יג"
         text={`וְכָל־זֶ֕ה אֵינֶ֥נּוּ שֹׁוֶ֖ה לִ֑י 
 בְּכָל־עֵ֗ת 
@@ -1129,7 +1128,7 @@ export function Home() {
   />
 
   <div className={styles.section}>
-    <H2>המן והסוס</H2>
+    <H3>המן והסוס</H3>
   </div>
 
   <Paragraph
@@ -1258,7 +1257,7 @@ export function Home() {
   />
 
   <div className={styles.section}>
-    <H2>תליית המן</H2>
+    <H3>תליית המן</H3>
   </div>
 
   <QuoteParagraph
@@ -1306,7 +1305,7 @@ export function Home() {
   />
 
   <div className={styles.section}>
-    <H2>בקשת אסתר לביטול הגזרה</H2>
+    <H3>בקשת אסתר לביטול הגזרה</H3>
   </div>
 
   <Paragraph
@@ -1473,7 +1472,7 @@ export function Home() {
   />
 
   <div className={styles.section}>
-    <H2>יג אדר בכל מדינות המלך</H2>
+    <H3>יג אדר בכל מדינות המלך</H3>
   </div>
 
   <Paragraph
@@ -1526,7 +1525,7 @@ export function Home() {
   />
 
   <div className={styles.section}>
-    <H2>יג אדר בשושן הבירה</H2>
+    <H3>יג אדר בשושן הבירה</H3>
   </div>
 
   <Paragraph
@@ -1574,9 +1573,9 @@ export function Home() {
   />
 
   <QuoteParagraph
-    pasuk="יב"
-    lead={`וַיֹּ֨אמֶר הַמֶּ֜לֶךְ לְאֶסְתֵּ֣ר הַמַּלְכָּ֗ה`}
-    text={`בְּשׁוּשַׁ֣ן הַבִּירָ֡ה 
+pasuk="יב"
+ lead={`וַיֹּ֨אמֶר הַמֶּ֜לֶךְ לְאֶסְתֵּ֣ר הַמַּלְכָּ֗ה`}
+ text={`בְּשׁוּשַׁ֣ן הַבִּירָ֡ה 
 הָֽרְגוּ֩ הַיְּהוּדִ֨ים וְאַבֵּ֜ד 
 חֲמֵ֧שׁ מֵא֣וֹת אִ֗ישׁ 
 וְאֵת֙ עֲשֶׂ֣רֶת בְּנֵֽי־הָמָ֔ן 
@@ -1589,9 +1588,9 @@ export function Home() {
   />
 
   <QuoteParagraph
-    pasuk="יג"
-    lead={`וַתֹּ֤אמֶר אֶסְתֵּר֙`}
-    text={`אִם־עַל־הַמֶּ֣לֶךְ ט֔וֹב 
+ pasuk="יג"
+ lead={`וַתֹּ֤אמֶר אֶסְתֵּר֙`}
+ text={`אִם־עַל־הַמֶּ֣לֶךְ ט֔וֹב 
 יִנָּתֵ֣ן גַּם־מָחָ֗ר 
 לַיְּהוּדִים֙ אֲשֶׁ֣ר בְּשׁוּשָׁ֔ן 
 לַֽעֲשׂ֖וֹת כְּדָ֣ת הַיּ֑וֹם 
@@ -1608,7 +1607,7 @@ export function Home() {
   />
 
   <div className={styles.section}>
-    <H2>יד אדר</H2>
+    <H3>יד אדר</H3>
   </div>
 
   <Paragraph
@@ -1709,14 +1708,14 @@ export function Home() {
 לְהֻמָּ֖ם וּֽלְאַבְּדָֽם׃`}
   />
 
-  <QuoteParagraph
+  <Paragraph
     pasuk="כה"
-    lead={`וּבְבֹאָהּ֮ לִפְנֵ֣י הַמֶּלֶךְ֒`}
-    text={`אָמַ֣ר עִם־הַסֵּ֔פֶר 
-יָשׁ֞וּב מַֽחֲשַׁבְתּ֧וֹ הָֽרָעָ֛ה 
-אֲשֶׁר־חָשַׁ֥ב עַל־הַיְּהוּדִ֖ים 
-עַל־רֹאשׁ֑וֹ 
-וְתָל֥וּ אֹת֛וֹ וְאֶת־בָּנָ֖יו 
+  text={`וּבְבֹאָהּ֮ לִפְנֵ֣י הַמֶּלֶךְ֒
+אָמַ֣ר עִם־הַסֵּ֔פֶר
+יָשׁ֞וּב מַֽחֲשַׁבְתּ֧וֹ הָֽרָעָ֛ה
+אֲשֶׁר־חָשַׁ֥ב עַל־הַיְּהוּדִ֖ים
+עַל־רֹאשׁ֑וֹ
+וְתָל֥וּ אֹת֛וֹ וְאֶת־בָּנָ֖יו
 עַל־הָעֵֽץ׃`}
   />
 
