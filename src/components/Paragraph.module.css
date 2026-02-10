@@ -9,10 +9,9 @@
 
 .quote {
   display: flex;
-  padding-right: var(--dimensions-d-1-5, 6px);
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
   gap: 10px;
   align-self: stretch;
 }
@@ -20,17 +19,23 @@
 .quoteLead {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .quoteBody {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
   padding-right: var(--dimensions-d-1-5, 6px);
   border-right: 1px solid var(--color-accent);
   transition: border-color 0.3s ease;
+}
+
+.quote .text,
+.quoteLead .text,
+.quoteBody .text {
+  text-align: right;
 }
 
